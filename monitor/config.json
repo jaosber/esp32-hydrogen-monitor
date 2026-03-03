@@ -1,0 +1,36 @@
+{
+  "connection": {
+    "esp32_ip": "192.168.4.1",
+    "esp32_port": 81,
+    "reconnect_interval": 5,
+    "ping_interval": 10,
+    "ping_timeout": 5
+  },
+  "calibration": {
+    "mq8_rl": 10.0,
+    "mq8_r0_sensor1": 60.21,
+    "mq8_r0_sensor2": 53.46,
+    "mq8_curve_m": -1.8,
+    "mq8_curve_b": 0.76
+  },
+  "alarms": {
+    "low_threshold": 300,
+    "medium_threshold": 600,
+    "high_threshold": 900,
+    "voltage_threshold": 1.5,
+    "ppm_alarm_threshold": 100
+  },
+  "gui": {
+    "history_seconds": 30.0,
+    "update_interval": 0.1,
+    "buffer_size": 500,
+    "export_format": "json",
+    "theme": "dark"
+  },
+  "display": {
+    "temperature_unit": "celsius",
+    "pressure_unit": "hpa",
+    "show_statistics": true,
+    "auto_scale_plots": true
+  }
+}
