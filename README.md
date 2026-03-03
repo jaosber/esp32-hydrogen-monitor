@@ -154,4 +154,4 @@ The ESP32 sends JSON messages of different types:
 
 ![Prototype setup](assets/images/img03.png)
 
-*Originally developed on 19 July 2025.*
+*Originally developed on 14 July 2025.*
